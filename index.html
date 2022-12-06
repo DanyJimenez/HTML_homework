@@ -7,9 +7,9 @@
     <title>Formulario de inicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body bgcolor="white">
     <center>
-        <h1>Encuesta</h1>
+        <h1>Encuesta de satisfacción</h1>
         <h3>Floristería Margara</h3>
         <p>Este formulario nos ayudará a conocer un poco más sobre usted y mejorar nuestro servicio.</p>
     </center>
@@ -31,7 +31,8 @@
 
         <label for="color">¿Cuál es tu color favorito?</label>
         <input type="text" name="color" id="color" required><br>
-
+        <label for="flor">¿¿Cuál es tu tipo de flor favorita?</label>
+        <input type="text" name="flor"><br>
         <label for="domicilios">¿Usaste el sistema de domicilios?</label>
         <select name="domicilios" id="numh">
             <option value="si">Sí</option>
@@ -46,6 +47,9 @@
 
         <label for="hora">¿A qué hora hiciste tu compra?</label>
         <input type="time"><br>
+
+        <label for="costo">¿Cuál fue el valor de tu compra?</label>
+        <input type="text" name="costo" id="costo" placeholder="$"> <br>
 
         <label for="servicio">¿Cómo calificarías el servicio del domiciliario?</label><br>
         <label for="servicio">Bueno<input type="radio" name="servicio" value="Excelente"></label>
